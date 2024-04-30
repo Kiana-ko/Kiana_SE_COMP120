@@ -7,15 +7,14 @@ import random
 
 '''
 Lab 3_ Exercise 1.1 - Week 6
-1. Create 3 favorite things about you using mulitline string 
+1. Create 3 favorite things about you using multiline string 
 '''
 print("== Lab 3_ Exercise 1.1 of - Week 6: ==")
 kianas_favs = """coding,
 photography,
 watching YT,
 """  # Storing my three fav things in a multiline string
-print(
-    f"Kiana's three fav things: {kianas_favs}")  # Responsible for printing out the info stored in the kiana_favs
+print(f"Kiana's three fav things: {kianas_favs}")  # Responsible for printing out the info stored in the kiana_favs
 
 # === Lab 3_ Exercise 1 - Week 6's Expected Output: ===
 '''
@@ -33,8 +32,7 @@ student_firstName = "Kiana"  # Storing my first name in the student_firstName va
 student_LastName = "Kooshesh"  # Storing my last name in the student_firstName
 student_address = "Richmond Hill, ON"  # Storing my address in the student_address variable
 print(f"== Lab 3_ Exercise 1.2 of - Week 6: ==\n")
-print(
-    f"Student's Details:\n-Student's Firstname: {student_firstName}\n-Student's Lastname: {student_LastName}\n-Student Adress: {student_address}\n")  # Using \n to move to a new line + example usage of f string which I've used throughout my code
+print(f"Student's Details:\n-Student's Firstname: {student_firstName}\n-Student's Lastname: {student_LastName}\n-Student Adress: {student_address}\n")  # Using \n to move to a new line + example usage of f string which I've used throughout my code
 # Responsible for printing out student full details to the console (which here is student is me)
 
 # == Lab 3_ Exercise 1.2 - Week 6's Expected Output: ==
@@ -54,12 +52,10 @@ Exercise 3
 '''
 print("== Lab 3_ Exercise 2 of - Week 6: ==")
 Agile_Sofrwares = ["Miro", "Jira", "Asana"]  # Creating the Agile_Softwares List
-Agile_Sofrwares.insert(0,
-                       "Trello")  # Responsible for inserting a new value ("Trello") as a first element to the "Agile_Sofrwares" list at the index 0 (index 0 being the first index cause we count the values from 0 not 1)
+Agile_Sofrwares.insert(0,"Trello")  # Responsible for inserting a new value ("Trello") as a first element to the "Agile_Sofrwares" list at the index 0 (index 0 being the first index cause we count the values from 0 not 1)
 # so this makes "Trello" our first item/ value in the list instead of "Miro" being the first value
 
-Agile_Sofrwares.insert(1,
-                       "Proggio")  # Responsible for inserting a new value ("Proggio") at the second index to the "Agile_Sofrwares" list at the index  (index 0 being the first index cause we count the values from 0 not 1)
+Agile_Sofrwares.insert(1,"Proggio")  # Responsible for inserting a new value ("Proggio") at the second index to the "Agile_Sofrwares" list at the index  (index 0 being the first index cause we count the values from 0 not 1)
 # so this makes "Trello" our first item/ value in the list instead of "Miro" being the first value
 
 print(Agile_Sofrwares)
@@ -67,8 +63,7 @@ print(Agile_Sofrwares)
 # Expected output: ['Trello', 'Proggio', 'Miro', 'Jira', 'Asana']
 
 
-print(Agile_Sofrwares[
-      1:4])  # Responsible for slicing from index 1 to 3 the Agile_Softwares list_ Expected Output: ['Proggio', 'Miro', 'Jira']
+print(Agile_Sofrwares[1:4])  # Responsible for slicing from index 1 to 3 the Agile_Softwares list_ Expected Output: ['Proggio', 'Miro', 'Jira']
 del Agile_Sofrwares[-1]  # Responsible for deleting the last element in the list
 print(
     Agile_Sofrwares)  # Printing out the Agile_Softwares list after all the modifications with expected out being: ['Trello', 'Proggio', 'Miro', 'Jira']
@@ -87,12 +82,9 @@ print(f"\n== Lab 3_ Exercise 3 of - Week 6: ==")
 KianasCourses = ["COMM161", "COMP120", "GNED232"]
 print(f"\n{KianasCourses}")
 
-print(
-    f"\nKiana's enrolled in the course: {KianasCourses[0]}")  # Prints out the first element of the list which is COMM161
-print(
-    f"\nKiana's enrolled in the course: {KianasCourses[1]}")  # Prints out the second element of the list which is COMP120
-print(
-    f"\nKiana's enrolled in the course: {KianasCourses[2]}")  # Prints out the third element of the list which is GNED232
+print(f"\nKiana's enrolled in the course: {KianasCourses[0]}")  # Prints out the first element of the list which is COMM161
+print(f"\nKiana's enrolled in the course: {KianasCourses[1]}")  # Prints out the second element of the list which is COMP120
+print(f"\nKiana's enrolled in the course: {KianasCourses[2]}")  # Prints out the third element of the list which is GNED232
 KianasCourses.append("MATH175")  # Using .append() to insert a new element(MATH175) to end of the list
 print(f"\n{KianasCourses}")  # Printing out the list again after all the modifications we made to it
 
@@ -133,8 +125,7 @@ favorite_languages = {
 }
 
 favorite_languages['phil'] = 'Python'  # Modifiying the the value from C# to Python for the key phil
-favorite_languages[
-    'Kiana'] = "C++"  # Adding an item to the Dictonary (With Kiana being the Key and c++ being the value)
+favorite_languages['Kiana'] = "C++"  # Adding an item to the Dictonary (With Kiana being the Key and c++ being the value)
 print(favorite_languages)  # Printing out our dictionary after some changes (To showcase the things we altered)
 favorite_languages.pop("jen")  # Using the .pop() Method to remove the item Jen
 print(favorite_languages)
@@ -189,8 +180,7 @@ Week 9 - Exercise 1:
 Write a program in python using if condition . Input the temperature (user input) . Check if the temperature is less than 98 display the result as cold. otherwise  if the temperature more than 98 , display the result as Hot . otherwise display them as normal . 
 '''
 print(f"\n== Lab 3_ Exercise 1 of - Week 9: ==")
-temperatureInput_reciver = float(input(
-    "please enter a tempreture:\n"))  # Asking for the user to input a tempreture and then converting the user input to float
+temperatureInput_reciver = float(input("please enter a tempreture:\n"))  # Asking for the user to input a tempreture and then converting the user input to float
 if temperatureInput_reciver < 98:
     print("The weather's cold!")
 elif temperatureInput_reciver > 98:
@@ -265,16 +255,13 @@ Print the statement as
 print(f"\n== Lab 3_ Exercise 2 of - Week 10: ==")
 
 # Our global variable which is defiened outside the function and has a global scope:
-global_project_id = random.randint(1000,
-                                   10000)  # Using .randint() to generate a random number between the rang of 1000 and 10000 and assining that random number to the global_project_id
+global_project_id = random.randint(1000,10000)  # Using .randint() to generate a random number between the rang of 1000 and 10000 and assining that random number to the global_project_id
 
 
 def project():
     local_project_id = 8929  # Creating a local variable and assining a number to it
-    print(
-        f"My gloabal project id is: {global_project_id}")  # Responsible for printing out the global id (cause OFC the local variable should be inside the function), expected output:a random 4 digit number between 1000 and 10000
-    print(
-        f"My local project id is: {local_project_id}")  # Responsible for printing out the local id, expected output: 8929
+    print(f"My gloabal project id is: {global_project_id}")  # Responsible for printing out the global id (cause OFC the local variable should be inside the function), expected output:a random 4 digit number between 1000 and 10000
+    print(f"My local project id is: {local_project_id}")  # Responsible for printing out the local id, expected output: 8929
 
 
 project()  # And finally calling our function which is essential for execution of the code and receiving output

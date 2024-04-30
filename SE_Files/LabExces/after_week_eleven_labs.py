@@ -1,6 +1,5 @@
 # Week 11
 
-
 # Exercise 1
 # Import the correct library and print a calendar for your project. Print October month calendar of this year
 # sample output as follows :
@@ -8,6 +7,7 @@
 
 import calendar
 import datetime
+import statistics as stats
 
 yy = 2024
 mm = 10
@@ -27,3 +27,6 @@ print(f"Current time: {formatted_current_time}")
 Exercise 2 
 Use 5 Functions in Python Math Module  and print the results 
 '''
+
+kianas_grades=[85,56.9,45,87,95]
+print(f"{stats.mean(kianas_grades)}")
